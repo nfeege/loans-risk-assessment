@@ -30,4 +30,4 @@ LoanStats3a_2007_2011.csv = Lending Club Loan Data from 2007-2011
 The Jupyter notebook for this analysis is ```loans-risk-assessment.ipynb```.
 
 ## Conclusion
-The Logistic Regression (with manual penalties) achieves 25% true positive rate at 9% false positive rate. This is the lowest false positive rate for all compared algorithms, so this seems like the best choice when wanting to minimize loss of money to loans that are not being paid back in full.
+The prediciton whether a loan will be paid back in full or not would inform the decision about whther to invest in the proposal or not. Here, we choose to minimize the risk for investing, i.e. we aim to minimize investing in proposals for which the loan will not be paid back. The Logistic Regression (with manual penalties) achieves 25% true positive rate at 9% false positive rate. This is the lowest false positive rate for all compared algorithms, so based on this study, this is the best choice when aiming to minimize loss of money to loans that are not being paid back in full.
